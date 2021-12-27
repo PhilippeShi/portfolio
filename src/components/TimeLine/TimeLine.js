@@ -44,10 +44,10 @@ const Timeline = () => {
   }, []);
 
   return (
-    <Section id="About">
+    <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet, sapien a fringilla mattis, diam turpis efficitur orci, eu tristique sapien felis id orci. Mauris eu libero sapien. Sed vel orci nunc. Nullam fermentum pulvinar lorem et vulputate. Duis tempor.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

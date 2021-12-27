@@ -3,7 +3,7 @@ export const projects = [
   {
     title: 'Project 1',
     description: "You can visit the web page as the admin (head librarian) using: id=11, password=adminpass or as a client id=20, password=1234.",
-      image: '/images/1.png',
+      image: '/images/1.gif',
       tags: ['Java', 'Spring', 'Vue.js', 'RESTful API services'],
     source: 'https://google.com',
     visit: 'https://onlinelibrarysystem-frontend.herokuapp.com/#/',
@@ -12,7 +12,7 @@ export const projects = [
   {
     title: 'Project 2',
     description: "This is a very long description of the project. This is a very long description of the project. This is a very long description of the project. This is a very long description of the project.",
-      image: prefix+'/images/1.png',
+      image: '/images/download.gif',
       tags: ['Java', 'Spring', 'Vue.js', 'RESTful API services'],
     source: 'https://google.com',
     visit: 'https://google.com',
@@ -39,6 +39,7 @@ export const projects = [
 ];
 
 export const TimeLineData = [
+  { year: 2019, text: 'Created my first "Hello World" script with Python and learned about Object-Oriented programming.', },
   { year: 2019, text: 'Created my first "Hello World" script with Python and learned about Object-Oriented programming.', },
   { year: 2020, text: 'Introduced to Machine Learning through personal projects, academia and hackathons.', },
   { year: 2021, text: 'Learned about building web and mobbile applications from the ground-up.', },

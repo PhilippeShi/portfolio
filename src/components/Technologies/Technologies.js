@@ -9,7 +9,7 @@ import { FaLanguage } from 'react-icons/fa'
 // List of icons here: https://react-icons.github.io/react-icons
 
 const Technologies = () =>  (
-  <Section id="tech">
+  <Section id="technologies">
     <SectionDivider /> <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
