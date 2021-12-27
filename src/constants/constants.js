@@ -12,7 +12,7 @@ export const projects = [
   {
     title: 'Project 2',
     description: "This is a very long description of the project. This is a very long description of the project. This is a very long description of the project. This is a very long description of the project.",
-      image: '/images/download.gif',
+      image: '/images/1.gif',
       tags: ['Java', 'Spring', 'Vue.js', 'RESTful API services'],
     source: 'https://google.com',
     visit: 'https://google.com',
@@ -21,7 +21,7 @@ export const projects = [
   {
     title: 'Project 3',
     description: "This is a very long description of the project. This is a very long description of the project. This is a very long description of the project. This is a very long description of the project.",
-      image: prefix+'/images/1.png',
+      image: prefix +'/images/1.png',
       tags: ['Java', 'Spring', 'Vue.js', 'RESTful API services'],
     source: 'https://google.com',
     visit: 'https://google.com',
@@ -30,7 +30,7 @@ export const projects = [
   {
     title: 'Project 4',
     description: "This is a very long description of the project. This is a very long description of the project. This is a very long description of the project. This is a very long description of the project.",
-      image: prefix+'/images/1.png',
+      image: prefix +'/images/1.png',
       tags: ['Java', 'Spring', 'Vue.js', 'RESTful API services'],
     source: 'https://google.com',
     visit: 'https://google.com',
