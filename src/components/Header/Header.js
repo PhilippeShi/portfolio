@@ -8,7 +8,7 @@ const prefix = '/portfolio'
 const Header = () =>  (
   <Container>
     <Div1>
-      <Link href= {''}>
+      <Link href= {'/'}>
         <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: "20px"}}>
           <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
         </a>
@@ -16,17 +16,17 @@ const Header = () =>  (
     </Div1>
     <Div2>
       <li>
-        <Link href= {'#projects'}>
+        <Link href= {'/#projects'}>
           <NavLink>Projects</NavLink>
         </Link>
       </li>
       <li>
-        <Link href= {'#technologies'}>
+        <Link href= {'/#technologies'}>
           <NavLink>Technologies</NavLink>
         </Link>
       </li>
       <li>
-        <Link href= {'#about'}>
+        <Link href= {'/#about'}>
           <NavLink>About</NavLink>
         </Link>
       </li>
