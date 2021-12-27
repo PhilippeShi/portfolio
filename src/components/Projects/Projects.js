@@ -7,6 +7,9 @@ import { projects } from '../../constants/constants';
 // The projects are in src/constants/constants.js
 // The images are in public/images
 
+
+// const prefix = '/portfolio' // prefix to be added before projects.image
+
 const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider />
@@ -29,8 +32,8 @@ const Projects = () => (
             </TagList>
           </div>
           <UtilityList>
-            <ExternalLinks href={projects.visit}>Code</ExternalLinks>
-            <ExternalLinks href={projects.source}>Source</ExternalLinks>
+            <ExternalLinks href={projects.visit}>Source</ExternalLinks>
+            <ExternalLinks href={projects.source}>Code repository</ExternalLinks>
           </UtilityList>
         </BlogCard>
       ))}
