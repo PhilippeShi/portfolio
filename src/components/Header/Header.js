@@ -4,11 +4,11 @@ import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
 
 import { Span, Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
-
+const prefix = '/portfolio'
 const Header = () =>  (
   <Container>
     <Div1>
-      <Link href= "/portfolio">
+      <Link href= {prefix}>
         <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: "20px"}}>
           <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
         </a>
@@ -16,17 +16,17 @@ const Header = () =>  (
     </Div1>
     <Div2>
       <li>
-        <Link href="/portfolio/#projects">
+        <Link href= {prefix + '#projects'}>
           <NavLink>Projects</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="/portfolio/#technologies">
+        <Link href= {prefix + '#technologies'}>
           <NavLink>Technologies</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="/portfolio/#about">
+        <Link href= {prefix + '#about'}>
           <NavLink>About</NavLink>
         </Link>
       </li>
