@@ -19,7 +19,7 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>My slogan</Slogan>
+          {/* <Slogan>My slogan</Slogan> */}
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons target="_blank" href="https://github.com/PhilippeShi">
@@ -33,6 +33,7 @@ const Footer = () => {
           </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>
+      <LinkItem target="_blank" href="https://github.com/PhilippeShi/portfolio/">View Source Code</LinkItem>
     </FooterWrapper>
   );
 };

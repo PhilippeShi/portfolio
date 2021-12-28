@@ -48,6 +48,9 @@ const Timeline = () => {
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet, sapien a fringilla mattis, diam turpis efficitur orci, eu tristique sapien felis id orci. Mauris eu libero sapien. Sed vel orci nunc. Nullam fermentum pulvinar lorem et vulputate. Duis tempor.
+      {/* Although currently enrolled in an anglophone university, I can also communicate in French fluently.
+        Living in Montreal, I 
+        My love for programming started after taking an introductory */}
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

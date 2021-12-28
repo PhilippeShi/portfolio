@@ -15,8 +15,8 @@ const Technologies = () =>  (
     <SectionText>
       I have worked with a wide range of technologies, mostly from the 
       backend, and I have currently getting familiar with front-end development.
-      I also have some experience with machine learning through a research paper
-      I wrote on bias within ML algorithms and projects on computer vision. 
+      I also have some experience with machine learning through projects on computer vision and 
+      a research paper I wrote on bias mitigation in ML algorithms. 
     </SectionText>
     <List>
       <ListItem>
@@ -58,7 +58,7 @@ const Technologies = () =>  (
           <ListTitle>Languages</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Java, Python, C, Bash, Arm Assembly, JavaScript
+            Java, Python, C, Bash, JavaScript
           </ListParagraph>
         </ListContainer>
       </ListItem>

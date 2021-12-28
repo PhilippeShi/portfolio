@@ -30,8 +30,8 @@ const Projects = () => (
             </TagList>
           </div>
           <UtilityList>
-            <ExternalLinks href={projects.visit}>Source</ExternalLinks>
-            <ExternalLinks href={projects.source}>Code repository</ExternalLinks>
+            { projects.visit && <ExternalLinks target="_blank" href={projects.visit}>View Project</ExternalLinks> }
+            { projects.source && <ExternalLinks target="_blank" href={projects.source}>Code Repository</ExternalLinks> }
           </UtilityList>
         </BlogCard>
       ))}
