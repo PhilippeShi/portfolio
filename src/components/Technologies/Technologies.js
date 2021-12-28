@@ -14,9 +14,9 @@ const Technologies = () =>  (
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       I have worked with a wide range of technologies, mostly from the 
-      backend, and I have currently getting familiar with front-end development.
-      I also have some experience with machine learning through projects on computer vision and 
-      a research paper I wrote on bias mitigation in ML algorithms. 
+      backend, and I am currently getting familiar with front-end development.
+      I have also gained experience in machine learning through projects on computer vision and 
+      a research paper I wrote on bias mitigation in ML algorithms.
     </SectionText>
     <List>
       <ListItem>
