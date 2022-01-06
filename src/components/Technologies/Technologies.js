@@ -2,11 +2,10 @@ import React from 'react';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
-import { DiFirebase, DiReact } from 'react-icons/di';
 import { BiNetworkChart } from 'react-icons/bi'
-import { RiComputerLine, RiToolsFill } from 'react-icons/ri'
-import { FaLanguage } from 'react-icons/fa'
-// List of icons here: https://react-icons.github.io/react-icons
+import { RiComputerLine, RiToolsFill, RiReactjsFill } from 'react-icons/ri'
+import { FaLanguage, FaDatabase } from 'react-icons/fa'
+// https://react-icons.github.io/react-icons
 
 const Technologies = () =>  (
   <Section id="technologies">
@@ -20,23 +19,21 @@ const Technologies = () =>  (
     </SectionText>
     <List>
       <ListItem>
-        <DiReact size="3rem" />
+        <RiReactjsFill size="3rem" />
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            React.js, Vue.js, Next.js
+            React.js, Vue.js, and Next.js
           </ListParagraph>
         </ListContainer>
       </ListItem>
       
       <ListItem>
-        <DiFirebase size="3rem" />
+        <FaDatabase size="3rem" />
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            PostgreSQL, RESTful API, SpringBoot, UML/Umple
+            PostgreSQL, RESTful API, SpringBoot, and UML/Umple
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -46,7 +43,6 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>ML</ListTitle>
           <ListParagraph>
-            Experience with <br />
             Keras and OpenCV
           </ListParagraph>
         </ListContainer>
@@ -57,8 +53,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Languages</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Java, Python, C, Bash, JavaScript
+            Java, Python, C, Bash, and JavaScript
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -68,8 +63,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Testing</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            JUnit, Mockito, Postman
+            JUnit, Mockito, and Postman
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -79,11 +73,11 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Environments</ListTitle>
           <ListParagraph>
-            Experience with <br />
             Windows OS and Linux CLI
           </ListParagraph>
         </ListContainer>
       </ListItem>
+
     </List>
   </Section>
 );

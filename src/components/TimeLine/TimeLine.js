@@ -3,7 +3,6 @@ import React, { useState, useRef, useEffect } from 'react';
 import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
-// timeline data found here: src\constants\constants.js
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
@@ -33,8 +32,6 @@ const Timeline = () => {
     }
   }
 
-  // snap back to beginning of scroll when window is resized
-  // avoids a bug where content is covered up if coming from smaller screen
   useEffect(() => {
     const handleResize = () => {
       scroll(carouselRef.current, 0);
@@ -45,12 +42,10 @@ const Timeline = () => {
 
   return (
     <Section id="about">
+      <SectionDivider /> <br /><br />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet, sapien a fringilla mattis, diam turpis efficitur orci, eu tristique sapien felis id orci. Mauris eu libero sapien. Sed vel orci nunc. Nullam fermentum pulvinar lorem et vulputate. Duis tempor.
-      {/* Although currently enrolled in an anglophone university, I can also communicate in French fluently.
-        Living in Montreal, I 
-        My love for programming started after taking an introductory */}
+        {/* I grew up in Montreal and can fluently communicate in French. */}
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
@@ -116,7 +111,6 @@ const Timeline = () => {
           );
         })}
       </CarouselButtons>
-      <SectionDivider />
     </Section>
   );
 };
