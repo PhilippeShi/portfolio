@@ -6,7 +6,7 @@ import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTi
 
 const Footer = () => {
   return (
-    <FooterWrapper>
+    <FooterWrapper> <br /><br /><br />
       <LinkList>
         <LinkColumn>
           <LinkTitle>Text / Call</LinkTitle>
@@ -21,7 +21,7 @@ const Footer = () => {
         <CompanyContainer>
           {/* <Slogan>My slogan</Slogan> */}
         </CompanyContainer>
-        <SocialContainer>
+        {/* <SocialContainer>
           <SocialIcons target="_blank" href="https://github.com/PhilippeShi">
             <AiFillGithub size="3rem" />
           </SocialIcons>
@@ -31,9 +31,13 @@ const Footer = () => {
           <SocialIcons target="_blank" href="https://www.instagram.com/philippe.shi/">
             <AiFillInstagram size="3rem" />
           </SocialIcons>
-        </SocialContainer>
-      </SocialIconsContainer>
-      <LinkItem target="_blank" href="https://github.com/PhilippeShi/portfolio/">View Source Code</LinkItem>
+        </SocialContainer> */}
+      </SocialIconsContainer> <br /><br /><br />
+      <a
+      style={{ color:'rgba(255, 255, 255, 0.75)', display:'grid', textAlign: 'center' }}
+      target="_blank" href="https://github.com/PhilippeShi/portfolio/">
+      Website Source Code
+      </a>
     </FooterWrapper>
   );
 };
