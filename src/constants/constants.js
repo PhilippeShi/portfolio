@@ -67,7 +67,7 @@ export const projects = [
 
 export const TimeLineData = [
   { year: 2019, text: 'My first "Hello World!" script written with Python and learned about Object-Oriented programming.', },
-  { year: 2020, text: 'Enrolled in the Soft. Eng. program at McGill. Got to learn about the core principles of software development.', },
+  { year: 2020, text: 'Enrolled in the software engineering program at McGill. Got to learn about the core principles of software development.', },
   { year: 2021, text: 'Introduced to Machine Learning and learned how to build and deploy web applications from the ground-up.', },
-  { year: 2022, text: "I'm excited too see what I can learn and accomplish this year!! 😀" }
+  { year: 2022, text: "I'm excited too see what I can accomplish this year!! 😀" }
 ];

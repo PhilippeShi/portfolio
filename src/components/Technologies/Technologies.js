@@ -14,8 +14,7 @@ const Technologies = () =>  (
     <SectionText>
       I have worked with a wide range of technologies, mostly from the 
       backend, and I am currently getting familiar with front-end development.
-      I have also gained experience in machine learning through projects on computer vision and 
-      a research paper I wrote on bias mitigation in ML algorithms.
+      I have also gained experience in machine learning through projects on computer vision.
     </SectionText>
     <List>
       <ListItem>
@@ -23,7 +22,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            React.js, Vue.js, and Next.js
+            React.js,&nbsp; Vue.js,&nbsp; and&nbsp; Next.js
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -33,7 +32,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            PostgreSQL, RESTful API, SpringBoot, and UML/Umple
+            PostgreSQL,&nbsp; RESTful API,&nbsp; SpringBoot, &nbsp;and&nbsp; UML/Umple
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -43,7 +42,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>ML</ListTitle>
           <ListParagraph>
-            Keras and OpenCV
+            OpenCV,&nbsp; Keras,&nbsp; and&nbsp; Mediapipe
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -53,7 +52,8 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Languages</ListTitle>
           <ListParagraph>
-            Java, Python, C, Bash, and JavaScript
+            <u>In order of proficiency:</u> <br />
+            Python,&nbsp; Java,&nbsp; C,&nbsp; Bash,&nbsp; ARM Assembly,&nbsp; and &nbsp;JavaScript
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -63,7 +63,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Testing</ListTitle>
           <ListParagraph>
-            JUnit, Mockito, and Postman
+            JUnit,&nbsp; Mockito,&nbsp; and&nbsp; Postman
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -73,7 +73,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Environments</ListTitle>
           <ListParagraph>
-            Windows OS and Linux CLI
+            Windows OS&nbsp; and&nbsp; Linux CLI
           </ListParagraph>
         </ListContainer>
       </ListItem>

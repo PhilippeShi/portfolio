@@ -42,10 +42,11 @@ const Timeline = () => {
 
   return (
     <Section id="about">
-      <SectionDivider /> <br /><br />
+      <SectionDivider /> <br />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        {/* I grew up in Montreal and can fluently communicate in French. */}
+        {/* My journey in software development began when I took an introductory class in programming, which made
+        me decide to apply for the software engineering program at McGill. */}
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

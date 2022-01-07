@@ -8,7 +8,7 @@ const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Hello, I'm Philippe. <br/>
+        Hello, I'm Philippe Shi. <br/>
         Welcome to my Portfolio.
       </SectionTitle>
       <SectionText>
@@ -16,7 +16,7 @@ const Hero = (props) => (
         strong background in full-stack development. 
         I am also a tech enthousiast that is always driven to learn new concepts 
         and technologies in attempt to keep up with the trends from the industry.
-        
+        I can also fluently communicate in French.
       </SectionText>
       {/* <Button onClick={() => window.location.href = 'https://google.com'}>Source Code</Button> */}
       
