@@ -32,7 +32,7 @@ export const projects = [
     description: "A simple object detection script implemented with a pre-trained model made by Darknet.",
     image: prefix +'/images/opencv.png',
     tags: ['Python','OpenCV','YOLO v3'],
-    source: 'https://github.com/PhilippeShi/Auto-web-navigation',
+    source: 'https://github.com/PhilippeShi/Object-Detection',
     visit: '',
     id: 3,
   },
