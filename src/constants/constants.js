@@ -10,13 +10,22 @@ export const projects = [
     id: 0,
   },
   {
+    title: 'Action Rep Counter',
+    description: "Created an application that counts the repetitions of any action/exercise that has two distinct positions using a simple ML model, which applies linear kernel function to perform the classification of images.",
+    image: prefix + '/images/counter.gif',
+    tags: ['Python', 'OpenCV', 'scikit-learn'],
+    source: 'https://github.com/PhilippeShi/counter',
+    visit: '',
+    id: 1,
+  },
+  {
     title: 'Auto Web Navigation and Scraping',
     description: "Scripts used to automate tasks that I would do every day. The demo shown is an example of one of them. It retrieves the different colors of an item available to buy online, and the number of seats available for specific sections of a course from McGill's website.",
     image: prefix +'/images/selenium_short.gif',
     tags: ['Python', 'Selenium'],
     source: 'https://github.com/PhilippeShi/Auto-web-navigation',
     visit: '',
-    id: 1,
+    id: 2,
   },
   {
     title: 'Medical Image Analysis and Deep Learning',
@@ -25,7 +34,7 @@ export const projects = [
     tags: ['Python', 'Jupyter', 'Keras'],
     source: '',
     visit: 'https://devpost.com/software/we-have-an-idea',
-    id: 5,
+    id: 3,
   },
   {
     title: 'Object Detection',
@@ -34,7 +43,7 @@ export const projects = [
     tags: ['Python','OpenCV','YOLO v3'],
     source: 'https://github.com/PhilippeShi/Auto-web-navigation',
     visit: '',
-    id: 3,
+    id: 4,
   },
   {
     title: 'Sudoku Solver',
@@ -43,7 +52,7 @@ export const projects = [
     tags: ['Java'],
     source: 'https://github.com/PhilippeShi/Sudoku-Solver',
     visit: '',
-    id: 2,
+    id: 5,
   },
   {
     title: 'Pong Game',
@@ -52,17 +61,8 @@ export const projects = [
     tags: ['Java', 'ACM package'],
     source: 'https://drive.google.com/drive/folders/1ZP9YyHURgd9VEp4Zxyy9el5RCKfWEmI4?usp=sharing',
     visit: '',
-    id: 4,
+    id: 6,
   },
-  // {
-  //   title: 'Gym Rep Counter',
-  //   description: "",
-  //   image: prefix + '',
-  //   tags: ['Python', 'OpenCV',],
-  //   source: '',
-  //   visit: '',
-  //   id: 5,
-  // },
 ];
 
 export const TimeLineData = [
