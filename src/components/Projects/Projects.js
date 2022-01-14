@@ -13,7 +13,7 @@ const Projects = () => (
     <SectionTitle main>Projects</SectionTitle>
     <GridContainer>
       {projects.map((projects) => (
-        <BlogCard key={projects.id}>
+        <BlogCard key={projects.id} id="3">
           <Img src={projects.image} />
           <TitleContent>
             <HeaderThree title>{projects.title}</HeaderThree>

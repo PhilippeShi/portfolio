@@ -12,9 +12,9 @@ const Technologies = () =>  (
     <SectionDivider /> <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I have worked with a wide range of technologies, mostly for the 
-      back-end, and I am currently getting familiar with front-end development.
-      I have also gained experience in machine learning through projects in computer vision.
+      I have worked with a wide range of technologies, mostly from the 
+      backend, and I am currently getting familiar with front-end development.
+      I have also gained experience in machine learning through projects on computer vision.
     </SectionText>
     <List>
       <ListItem>
@@ -53,7 +53,7 @@ const Technologies = () =>  (
           <ListTitle>Languages</ListTitle>
           <ListParagraph>
             <u>In order of proficiency:</u> <br />
-            Python,&nbsp; Java,&nbsp; C,&nbsp; Bash,&nbsp; OCaml,&nbsp; ARM Assembly,&nbsp; and &nbsp;JavaScript
+            Python,&nbsp; Java,&nbsp; C,&nbsp; Bash,&nbsp; ARM Assembly,&nbsp; and &nbsp;JavaScript
           </ListParagraph>
         </ListContainer>
       </ListItem>

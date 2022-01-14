@@ -6,15 +6,19 @@ import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTi
 
 const Footer = () => {
   return (
-    <FooterWrapper> <br /><br /><br />
+    <FooterWrapper id="contact"> <br /><br /><br />
       <LinkList>
-        <LinkColumn>
-          <LinkTitle>Text / Call</LinkTitle>
-          <LinkItem href="sms://+15145828869">514-582-8869</LinkItem>
-        </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
           <LinkItem href="mailto:philippe.shi@mail.mcgill.ca">philippe.shi@mail.mcgill.ca</LinkItem>
+        </LinkColumn>
+        <LinkColumn>
+          <LinkTitle>linkedin</LinkTitle>
+          <LinkItem href="https://www.linkedin.com/in/philippeshi/" target="_blank">linkedin.com/in/philippeshi</LinkItem>
+        </LinkColumn>
+        <LinkColumn>
+          <LinkTitle>Text / Call</LinkTitle>
+          <LinkItem href="sms://+15145828869">514-582-8869</LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>

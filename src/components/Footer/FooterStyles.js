@@ -117,7 +117,7 @@ export const LinkList = styled.ul`
 	border-top: 1px solid rgba(255, 255, 255, 0.1);
   display: grid;
 	grid-template-columns: repeat(3, minmax(85px, 220px));
-	gap: 40px;
+	gap: 90px;
   padding: 40px 0 28px;
 
 	@media ${props => props.theme.breakpoints.lg} {
