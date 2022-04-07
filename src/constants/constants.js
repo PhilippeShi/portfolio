@@ -1,10 +1,19 @@
 const prefix = process.env.NEXT_PUBLIC_BASE_PATH || ''
 export const projects = [
   {
+    title: 'Study Buddy Matching Application',
+    description: "A full-stack web application that allows McGill students to find study buddies based on their courses, freetime, and interests. I was the scrum master of a team of 8.",
+    image: prefix + '/images/studybuddy.png',
+    tags: ['Python', 'Flask', 'PostgreSQL', 'Vue.js', 'Gherkin'],
+    source: '',
+    visit: 'https://w22-428-studybuddy-front-test.herokuapp.com/',
+    id: 0,
+  },
+  {
     title: 'Online Library System',
     description: "This is an application for a library system made from the ground up in a team of six developers. Both the database and the frontend of this application are deployed on Heroku.",
     image: prefix + '/images/library.gif',
-    tags: ['Java', 'Spring', 'PostgreSQL', 'Vue.js', 'RESTful API'],
+    tags: ['Java', 'Spring', 'PostgreSQL', 'Vue.js'],
     source: 'https://drive.google.com/drive/folders/1fVlXdNt0x6iw_aFhS3PptrBGdrpdDPFC?usp=sharing',
     visit: 'https://onlinelibrarysystem-frontend.herokuapp.com/#/',
     id: 0,
