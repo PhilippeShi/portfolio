@@ -22,7 +22,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            React.js,&nbsp; Vue.js,&nbsp; and&nbsp; Next.js
+          Vue.js,&nbsp; Next.js,&nbsp; and&nbsp; React.js
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -32,7 +32,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            PostgreSQL,&nbsp; RESTful API,&nbsp; SpringBoot, &nbsp;and&nbsp; UML/Umple
+          SpringBoot, &nbsp;Flask, &nbsp;PostgreSQL,&nbsp; RESTful API, &nbsp;and&nbsp; UML/Umple
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -42,7 +42,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>ML</ListTitle>
           <ListParagraph>
-            OpenCV,&nbsp; Keras,&nbsp; scikit-learn,&nbsp; and&nbsp; Mediapipe
+            Keras,&nbsp; scikit-learn,&nbsp; Mediapipe, &nbsp;and&nbsp; OpenCV&nbsp; 
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -73,7 +73,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Environments</ListTitle>
           <ListParagraph>
-            Windows OS&nbsp; and&nbsp; Linux CLI
+            Windows OS&nbsp; and&nbsp; Unix/Linux CLI
           </ListParagraph>
         </ListContainer>
       </ListItem>
