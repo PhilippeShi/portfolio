@@ -3,7 +3,7 @@ export const projects = [
   {
     title: 'Lightning Goods',
     description: "Co-founded a platform that sells North American products that are inaccessible in the Chinese market and importing products to the western market. I am currenlty responsible for the full-stack development and DevOps of the platform.",
-    image: prefix + 'images/lg.png',
+    image: prefix + '/images/lg.png',
     tags: ['Flask', 'PostgreSQL', 'Vue.js', 'AWS', 'Heroku'],
     source: '',
     visit: 'https://lightning-goods.com/en/',
