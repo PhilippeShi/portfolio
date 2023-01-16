@@ -12,11 +12,9 @@ const Hero = (props) => (
         Welcome to my Portfolio.
       </SectionTitle>
       <SectionText>
-        I am a second-year Software Engineering student at McGill University with a 
+        I am a third-year Software Engineering student at McGill University with a 
         background in full-stack development and machine learning. 
-        I am also a tech enthousiast that is always driven to learn new concepts 
-        and technologies in attempt to keep up with the trends from the industry.
-        I can also fluently communicate in French.
+        I am passionate about building applications that can make a difference in people's lives.
       </SectionText>
       {/* <Button onClick={() => window.location.href = 'https://google.com'}>Source Code</Button> */}
       
